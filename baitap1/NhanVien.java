@@ -55,7 +55,7 @@ public class NhanVien {
   public String getThongTin() {
     return "Ten: " + this.ten + ", tuoi: " + this.tuoi + ", dia chi: " + this.diaChi
       + ", tien luong : " + this.tienLuong + ", tong gio lam: " + this.tongGioLam
-      + ", tien thuong: " + tinhThuong();
+      + ", tien thuong: " + this.tinhThuong();
   }
 
   // tinh luong nhan vien
