@@ -5,7 +5,7 @@ public class Main2 {
 
   public static void main(String[] args) {
     // create quan ly nhan vien object
-    QuanLyNhanVien qlNhanVien = new QuanLyNhanVien();
+    IQuanLy qlNhanVien = new QuanLyNhanVien();
 
     // create nhan vien
     NhanVien nv1 = new NhanVien();
