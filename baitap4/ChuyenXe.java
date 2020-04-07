@@ -14,6 +14,11 @@ public abstract class ChuyenXe {
     this.doanhThu = doanhThu;
   }
 
-  // methods abstract
-  public abstract void inThongTinChuyenXe();
+  // methods
+  public void inThongTinChuyenXe() {
+    System.out.println("ma chuyen xe: " + this.maChuyen);
+    System.out.println("ten tai xe: " + this.taiXe);
+    System.out.println("so xe: " + this.soXe);
+    System.out.printf("doanh thu: %.00f\n", this.doanhThu);
+  };
 }
