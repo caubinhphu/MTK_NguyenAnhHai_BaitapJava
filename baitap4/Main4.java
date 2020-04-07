@@ -1,3 +1,4 @@
+// import java.util.ArrayList;
 
 public class Main4 {
   public static void main(String[] args) {
@@ -29,5 +30,11 @@ public class Main4 {
 
     // tong doanh thu
     System.out.printf("Tong doanh thu: %.00f\n", qlChuyenXe.tongDoanhThu());
+
+    // ArrayList<ChuyenXe> cxs = new ArrayList<>();
+    // cxs = qlChuyenXe.xuatDsChuyenXe();
+    // for (ChuyenXe cx : cxs) {
+    //   System.out.println(cx instanceof ChuyenXeNoiThanh);
+    // }
   }
 }

@@ -11,6 +11,9 @@ public class QuanLyChuyenXe {
   }
 
   // Xuat danh sach chuyen xe
+  public ArrayList<ChuyenXe> xuatDsChuyenXe() {
+    return dsChuyenXe;
+  }
 
   // Xuat thong tin chuyen xe
   public void inThongTin() {
